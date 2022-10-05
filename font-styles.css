@@ -1,0 +1,19 @@
+/* @font-face: we adding all required fonts int this file */
+
+
+/* for Headings */
+
+@font-face {
+    font-family: "head";
+    /*you can give your own name for fonts as per your wish*/
+    src: url('./fonts/Gotham-Black_0.otf');
+    /*font scr link*/
+}
+
+
+/* for Blod text */
+
+@font-face {
+    font-family: "bold1";
+    src: url('./fonts/Gotham-Bold_6.otf');
+}

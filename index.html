@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Ayurvedic Hospital in Bangalore | Panchakarma Treatment</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="row">
+            <img src="./img/logo1.png" class="w-25" alt="">
+        </div>
+        <div class="text-center">
+            <img src="./img/banner-1.png" class="text-center w-75 pt-5" alt="">
+        </div>
+    </div>
+
+    <!-- contact form -->
+    <div class="container constulation-form">
+        <h1 class="text-center fs-2 fw-bold py-4">Ayurvedic consultation with experienced doctors and nutritionists</h1>
+        <form action="send-mail.php" method="post">
+            <h2 class="fs-4 fw-400">Step 1: Personal Details</h2>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" name="first-name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" name="last-name" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input type="tel" class="form-control" placeholder="Phone No" name="phone" aria-label="Phone">
+                </div>
+                <div class="col">
+                    <input type="email" class="form-control" placeholder="Email" name="email" aria-label="Email">
+                </div>
+            </div>
+            <div class="form-check py-4">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label fs-5" for="defaultCheck1">
+                    Get updates on <span style="color: rgb(89, 112, 47); text-decoration: underline;">WhatsApp</span>. You may opt out anytime
+                </label>
+            </div>
+            <h2 class="fs-4 pt-4">Step 2: Pick your therapy</h2>
+            <div class="row">
+                <!-- <div class="therapy col-md-4">
+                    <input type="radio" name="check" class="therapy-input" id="General  medicine" required="" value="0a68595b-34e8-4785-aba9-c6b6e4decd52"><label id="therapy-General  medicine" for="General  medicine"><img src="https://cdn11.bigcommerce.com/s-5h8rqg02f8/content/health-tech-doc-consult/img/0a68595b-34e8-4785-aba9-c6b6e4decd52.png" alt=""><p>General  medicine</p></label>
+                </div> -->
+                <div class="col-md-3 radio-select-tems d-inline">
+                    <div class="form-check-border">
+                        <div class="form-check d-inline">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            <img src="./img/general-medicine.webp" alt="">
+                          <p class="d-inline-block text-center">General medicine</p>
+                        </label>
+                        </div>
+                        <input class="form-check-input" type="radio" value="General medicine" name="flexRadioDefault" id="flexRadioDefault1">
+                    </div>
+                </div>
+                <div class="col-md-3 radio-select-tems d-inline">
+                    <div class="form-check-border">
+                        <div class="form-check d-inline">
+                            <label class="form-check-label" for="flexRadioDefault2">
+                            <img src="./img/skin-and-hair-care.webp" alt="">
+                          <p class="d-inline-block text-center">Skin and Hair care</p>
+                        </label>
+                        </div>
+                        <input class="form-check-input" type="radio" value="Skin and Hair care" name="flexRadioDefault" id="flexRadioDefault2">
+                    </div>
+                </div>
+                <div class="col-md-3 radio-select-tems d-inline">
+                    <div class="form-check-border">
+                        <div class="form-check d-inline">
+                            <label class="form-check-label" for="flexRadioDefault3">
+                            <img src="./img/womens-health.webp" alt="">
+                          <p class="d-inline-block text-center">Women's health</p>
+                        </label>
+                        </div>
+                        <input class="form-check-input" type="radio" value="Women's health" name="flexRadioDefault" id="flexRadioDefault3">
+                    </div>
+                </div>
+                <div class="col-md-3 radio-select-tems d-inline">
+                    <div class="form-check-border">
+                        <div class="form-check d-inline">
+                            <label class="form-check-label" for="flexRadioDefault5">
+                            <img src="./img/weight-management.webp" alt="">
+                          <p class="d-inline-block text-center">Weight management</p>
+                        </label>
+                        </div>
+                        <input class="form-check-input" type="radio" value="Weight management" name="flexRadioDefault" id="flexRadioDefault5">
+                    </div>
+                </div>
+                <div class="col-md-4 radio-select-tems d-inline">
+                    <div class="form-check-border">
+                        <div class="form-check d-inline">
+                            <label class="form-check-label" for="flexRadioDefault6">
+                            <img src="./img/bp-diabetes-issues.webp" alt="">
+                          <p class="d-inline-block text-center">BP, diabetes, chronic issues</p>
+                        </label>
+                        </div>
+                        <input class="form-check-input" type="radio" value="BP, diabetes, chronic issues" name="flexRadioDefault" id="flexRadioDefault6">
+                    </div>
+                </div>
+                <div class="col-md-4 radio-select-tems d-inline">
+                    <div class="form-check-border">
+                        <div class="form-check d-inline">
+                            <label class="form-check-label" for="flexRadioDefault7">
+                            <img src="./img/Nutritionist.webp" alt="">
+                          <p class="d-inline-block text-center">Nutritionist</p>
+                        </label>
+                        </div>
+                        <input class="form-check-input" type="radio" value="Nutritionist" name="flexRadioDefault" id="flexRadioDefault7">
+                    </div>
+                </div>
+                <div class="col-md-4 radio-select-tems d-inline">
+                    <div class="form-check-border">
+                        <div class="form-check d-inline">
+                            <label class="form-check-label" for="flexRadioDefault4">
+                            <img src="./img/mens-health.webp" alt="">
+                          <p class="d-inline-block text-center">Men's health</p>
+                        </label>
+                        </div>
+                        <input class="form-check-input" type="radio" value="Men's health" name="flexRadioDefault" id="flexRadioDefault4">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 py-3">
+                <div class="mb-3">
+                    <label for="formGroupExampleInput" class="form-label fs-5">Tell us more about your concern</label>
+                    <input type="text" class="form-control" name="tellmoreabout" id="formGroupExampleInput" placeholder="Optional">
+                </div>
+            </div>
+            <div class="row">
+                <h2 class="fs-4 fw-400">Step 3: Choose Date & Time</h2>
+                <div class="col-md-6">
+                    <label for="inputDate" class="form-label">Select a Date</label>
+                    <input type="date" class="form-control" id="inputDate" name="trip-start">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputSelect" class="form-label">Pick a Slot (Select therapy first)</label>
+                    <select class="form-select" id="inputSelect" name="slot" style="padding: 20px; margin: 10px;" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                </div>
+            </div>
+        </form>
+        <div class="row text-center p-5">
+            <div class="col-md-3"></div>
+            <div class="col-md-6"><a href="#" type="submit" value="submit" class="btn btn-primary fw-bold btn-lg">BOOK NOW</a></div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
+    <!-- team section -->
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                    <div class="sec-heading text-center py-5">
+                        <h2>MEET OUR TEAM OF EMPANELLED <br><span class="fw-bold">AYURVEDIC DOCTORS</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-box">
+            <div class="container">
+                <div class="row px-4">
+                    <div class="col-lg-12">
+                        <div class="team-slider owl-carousel">
+                            <div class="single-box text-center">
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="./img/Dr S Suma.jpeg"></div>
+                                <div class="info-area">
+                                    <h4>Dr S Suma</h4>
+                                    <h5>Clinical & Research Team, RISA</h5>
+                                    <p>11 years of Clinical experience.</p><a href="https://ramaiahayurveda.com/expert-doctor-consultation1/">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="single-box text-center">
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="./img/Dr Shalini TV.jpeg"></div>
+                                <div class="info-area">
+                                    <h4>Dr Shalini TV</h4>
+                                    <h5>Clinical & Research Team, RISA</h5>
+                                    <p>10 years of Clinical Experience</p><a href="https://ramaiahayurveda.com/expert-doctor-consultation3/">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="single-box text-center">
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="./img/Dr-Sujatha-S-Patil.jpg"></div>
+                                <div class="info-area">
+                                    <h4>Dr Sujatha S Patil</h4>
+                                    <h5>Visiting Consultant, RISA</h5>
+                                    <p>18 years of Clinical experience</p><a href="https://ramaiahayurveda.com/expert-doctor-consultation2/">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="single-box text-center">
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="./img/girija.jpg"></div>
+                                <div class="info-area">
+                                    <h4>Dr T K Girijakumari</h4>
+                                    <h5>Deputy Director, Clinical Operations, RISA</h5>
+                                    <p>30 years of experience in clinical practice and teaching in Ayurveda.</p><a href="https://ramaiahayurveda.com/expert-doctor-consultation4/">Learn More</a>
+                                </div>
+                            </div>
+                            <div class="single-box text-center">
+                                <div class="img-area"><img alt="" class="img-fluid move-animation" src="./img/Dr Krishna J.jpg"></div>
+                                <div class="info-area">
+                                    <h4>Dr Krishna J</h4>
+                                    <h5>MD(Panchakarma), Medical Superintendent</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ullam.</p><a href="https://ramaiahayurveda.com/ayurvedic-experts-consultation/">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- treatment section -->
+    <section class="container p-4 mt-5">
+        <h2 class="text-center fw-bold">Our empanelled doctors have treated thousands of patients with:</h2>
+        <div class="row my-3 py-5">
+            <div class="col-md-3 treatment-col">
+                <img src="./img/diabities.png" alt="">
+                <p class="text-center d-inline-block p-2"><span class="fw-bold">Diabetes</span> treated by<br> Dr. Aswathy</p>
+            </div>
+            <div class="col-md-3 treatment-col">
+                <img src="./img/skin-hair.png" alt="">
+                <p class="text-center d-inline-block p-2"><span class="fw-bold">Skin &amp; hair</span> treated by<br> Dr. Sheetal</p>
+            </div>
+            <div class="col-md-3 treatment-col">
+                <img src="./img/obesity.png" alt="">
+                <p class="text-center d-inline-block p-2"><span class="fw-bold">Obesity</span> treated by<br> Dr. Irfan</p>
+            </div>
+            <div class="col-md-3 treatment-col">
+                <img src="./img/pocs.png" alt="">
+                <p class="text-center d-inline-block p-2"><span class="fw-bold">POCS</span> treated by<br> Dr. Kalpana</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- cta button -->
+    <div class="container py-4 mb-5">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a class="btn btn-primary btn-lg fw-bold" href="#"><img src="./img/dc-consult.webp" class="cta-button" alt=""> BOOK A FREE CONSULTATION</a>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+
+    <!-- treatment section -->
+    <section class="container p-4">
+        <h1 class="text-center fs-3">Get the right treatment after an analysis of the root cause of your problems</h1>
+
+        <div class="row py-4">
+            <div class="col-md-3 p-3 text-center">
+                <img src="./img/ayruvedic.png" alt="">
+                <h4 class="fw-bold p-1">100+</h4>
+                <p>Years of Ayurvedic experience</p>
+            </div>
+            <div class="col-md-3 p-3 text-center">
+                <img src="./img/consultation.png" alt="">
+                <h4 class="fw-bold p-1">40,000+</h4>
+                <p>Successful online consultations</p>
+            </div>
+            <div class="col-md-3 p-3 text-center">
+                <img src="./img/treatment.png" alt="">
+                <h4 class="fw-bold p-1">200+</h4>
+                <p>Highly qualified doctors empanelled</p>
+            </div>
+            <div class="col-md-3 p-3 text-center">
+                <img src="./img/doctors.png" alt="">
+                <h4 class="fw-bold p-1">90+</h4>
+                <p>Disease Treatment Available</p>
+            </div>
+            <h6 class="text-center pt-5 fs-5">Get a 100% Private and Free Online Test.</h6>
+        </div>
+    </section>
+
+    <!-- faq section -->
+    <section class="container pb-5">
+        <div class="accordion accordion-flush px-5" id="accordionFlushExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        What are the online Ayurvedic consultation charges?
+                </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">It is completely Free, there are no charges for your online Ayurvedic Consultation at Kapiva.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Does Ayurveda work for all ages??
+                </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Ayurveda is an effective cure for many lifestyle issues and works for all ages. The medicines and treatments may differ person to person basis their age groups, lifestyle choices, comorbidities and adherence to medicines.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        How fast is the medicine shipped?
+                </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The Products will be dispatched within 24 hours of you placing the order. However it takes 3 – 7 days to reach your location depending on the location. Some areas have varied degrees of covid-related restircition, due to which delivery
+                        might be delayed. Kapiva provides you with links to track your order in real time.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                        How can I reschedule my appointment?
+                </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The Customer has the option to reschedule their appointments from the confirmation email they receive after booking the first appointment. Alternatively, customers can follow the same steps and book another appointment for the next
+                        available slot from the website.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        What is the mode of consultation?
+                </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The consultation will be online through a telephonic call. The doctor will reach out to you on your number at your appointment time for the consultation.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSix">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                        Whom do I need to reach out if I have any queries regarding the products?
+                </button>
+                </h2>
+                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">For any concerns regarding the products, the customer can reach out to us on the toll free number 18002742575 or can also write to us at info@kapiva.in. Our support team will resolve your concerns at the earliest.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingSeven">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                        Is it safe to share personal information and reports with the doctors?
+                </button>
+                </h2>
+                <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">All consultations at Kapiva are 100% Private, the medical information shared by the customers shall not be divulged to others without the consent of the customer.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- why section -->
+    <section class="container py-4">
+        <h1 class="text-center fs-5">WHY <span class="fw-bold">RAMAIAH AYURVEDA?</span></h1>
+        <p class="text-center p-4">Kapiva has a team of experienced Ayurvedic practitioners and nutritionists who will guide you at every step to get healthy and fit in a natural way.</p>
+        <div class="row py-4">
+            <div class="col-md-3 p-3 text-center">
+                <img src="./img/customers.png" alt="">
+                <h4 class="fw-bold p-1">2 lac+</h4>
+                <p>Satisfied customers</p>
+            </div>
+            <div class="col-md-3 p-3 text-center">
+                <img src="./img/delivered.png" alt="">
+                <h4 class="fw-bold p-1">10 lac+</h4>
+                <p>Orders delivered</p>
+            </div>
+            <div class="col-md-3 p-3 text-center">
+                <img src="./img/cities.png" alt="">
+                <h4 class="fw-bold p-1">60+</h4>
+                <p>Cities supplied</p>
+            </div>
+            <div class="col-md-3 p-3 text-center">
+                <img src="./img/categories.png" alt="">
+                <h4 class="fw-bold p-1">50+</h4>
+                <p>Categories served</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- cta button -->
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <a class="btn btn-primary btn-lg fw-bold" href="#"><img src="./img/dc-consult.webp" class="cta-button" alt=""> BOOK A FREE CONSULTATION</a>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./popper.min.js"></script>
+    <script src="./bootstrap.min.js"></script>
+    <script>
+        $('.team-slider').owlCarousel({
+            loop: true,
+            nav: false,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            smartSpeed: 450,
+            margin: 20,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                991: {
+                    items: 3
+                },
+                1200: {
+                    items: 3
+                },
+                1920: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
